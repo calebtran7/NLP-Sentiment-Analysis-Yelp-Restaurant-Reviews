@@ -16,6 +16,7 @@ Yelp is a popular platform where users can share their experiences and opinions 
 
 ### 2. Data Collection
 Link to dataset: https://www.kaggle.com/datasets/farukalam/yelp-restaurant-reviews
+
 The dataset includes reviews, ratings, and other relevant information. Note that the dataset used for this project has been anonymized and doesn't contain any identifiable user information.
 
 ### 3. Data Preprocessing
