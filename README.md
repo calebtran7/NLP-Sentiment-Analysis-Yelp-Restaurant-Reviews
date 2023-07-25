@@ -29,7 +29,7 @@ VADER Results plotted:
 
 
 ### 5. RoBERTa Pretrained Model
-RoBERTa, developed by Facebook AI, is a powerful transformer-based language model. We leverage a pre-trained RoBERTa model from Hugging Face's transformers library, fine-tuned on our Yelp restaurant review dataset for sentiment analysis.
+RoBERTa, developed by Facebook AI, is a powerful transformer-based language model. I leveraged a pre-trained RoBERTa model from Hugging Face's transformers library, fine-tuned on our Yelp restaurant review dataset for sentiment analysis.
 
 ### 6. The Transformers Pipeline
 The Transformers Pipeline is a powerful and user-friendly feature provided by Hugging Face's transformers library, which simplifies the process of using pre-trained language models for various NLP tasks, including sentiment analysis. By specifying the task as "sentiment-analysis," the pipeline automatically tokenizes the input text, feeds it to the RoBERTa model, and generates sentiment predictions for each review.
