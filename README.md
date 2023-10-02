@@ -1,6 +1,6 @@
 # NLP-Sentiment-Analysis-Yelp-Restaurant-Reviews
 
-This NLP project aims to automatically analyze the sentiment of restaurant reviews from Yelp using two different approaches: the VADER Bag of Words approach and a pre-trained RoBERTa model from Hugging Face.
+This NLP project aims to automatically analyze the sentiment of restaurant reviews from Yelp using two different approaches: the VADER Bag of Words approach and a pre-trained RoBERTa model from Hugging Face. I also incorporate a Naive Bayes Model to classify the reviews as either positive or negative.
 
 ### Table of Contents
 1. Introduction
@@ -27,6 +27,9 @@ The VADER (Valence Aware Dictionary and sEntiment Reasoner) Bag of Words approac
 VADER Results plotted:
 ![image](https://github.com/calebtran7/NLP-Sentiment-Analysis-Yelp-Restaurant-Reviews/assets/121086856/736d41cb-7420-410b-a626-834f3703e0f8)
 
+### 5. Naive Bayes Classification Model
+I developed and implemented a Naive Bayes model that classifies the reviews as either positive or negative, according to their VADER compound score. 
+The NB model ultimately achieved an accuracy of 0.86. 
 
 ### 5. RoBERTa Pretrained Model
 RoBERTa, developed by Facebook AI, is a powerful transformer-based language model. I leveraged a pre-trained RoBERTa model from Hugging Face's transformers library, fine-tuned on our Yelp restaurant review dataset for sentiment analysis.
